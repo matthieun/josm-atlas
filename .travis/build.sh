@@ -2,4 +2,4 @@
 
 chmod u+x gradlew
 
-./gradlew clean build
+./gradlew clean build minJosmVersionClasses
