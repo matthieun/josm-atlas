@@ -23,9 +23,10 @@ branches:
 language: java
 jdk:
   - openjdk11
-script:
+install:
   - chmod ug+x .travis/*.sh
-  - .travis/build.sh
+  - .travis/install.sh
+script: .travis/build.sh
 
 # Build stages
 jobs:
