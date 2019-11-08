@@ -21,7 +21,8 @@ branches:
 
 # Default settings for build stages
 language: java
-jdk: openjdk11
+jdk:
+  - openjdk11
 script:
   - chmod ug+x .travis/*.sh
   - .travis/build.sh
