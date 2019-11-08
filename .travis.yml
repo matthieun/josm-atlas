@@ -26,9 +26,9 @@ jdk:
   - oraclejdk8
   - oraclejdk9
   - openjdk11
-install:
-  - chmod ug+x .travis/*.sh
-  - .travis/install.sh
+#install:
+#  - chmod ug+x .travis/*.sh
+#  - .travis/install.sh
 script: .travis/build.sh
 
 # Build stages
