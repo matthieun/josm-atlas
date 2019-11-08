@@ -22,7 +22,9 @@ branches:
 # Default settings for build stages
 language: java
 jdk:
-  - openjdk11
+  - openjdk8
+  - oraclejdk8
+  - oraclejdk9
 install:
   - chmod ug+x .travis/*.sh
   - .travis/install.sh
